@@ -1,0 +1,5 @@
+FROM centos 
+MAINTAINER Savinkin Vladimir
+RUN yum install -y vim
+WORKDIR /home/lab1
+COPY /files .
